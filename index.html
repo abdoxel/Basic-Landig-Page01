@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdoxel — Build, design, and launch all in one powerful workflow</title>
+<meta name="description" content="Protoza is a powerful new way to click, design, and launch on the web. Join the waitlist for early beta access.">
+<meta name="theme-color" content="#080808">
+
+<!-- Inter typeface -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ============================================================
+     HEADER
+============================================================ -->
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#top" aria-label="Protoza home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 3 4 8v8l8 5 8-5V8z"/><path d="M12 3v18"/>
+        </svg>
+      </span>
+      <span class="brand-name">Abdoxel</span>
+    </a>
+
+    <nav class="header-nav" aria-label="Utility">
+      <a class="btn-ghost js-buy" href="#waitlist">
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true">
+          <path d="M4 5h16v14H4z"/><path d="M8 9h8M8 13h5"/>
+        </svg>
+        Join Us
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>
+      </a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============================================================
+       HERO
+  ============================================================ -->
+  <section class="hero">
+    <div class="hero-aura" aria-hidden="true"></div>
+
+    <div class="container hero-inner">
+      <!-- floating collaborator tags -->
+      <span class="tag tag--yellow reveal" style="--d:6">Marriott</span>
+      <span class="tag tag--cyan reveal" style="--d:7">Chris</span>
+
+      <a class="hero-badge reveal" href="#waitlist">
+        <span class="badge-pill">Coming Soon</span>
+        <span class="badge-text">Wow! 18.3k people signed up</span>
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>
+      </a>
+
+      <h1 class="hero-title reveal" style="--d:1">Something new is landing on the web.</h1>
+      <p class="hero-sub reveal" style="--d:2">Build, design, and launch all in one powerful workflow.</p>
+
+      <form class="waitlist-form reveal" style="--d:3" data-waitlist novalidate>
+        <label class="sr-only" for="hero-email">Email address</label>
+        <input class="waitlist-input" id="hero-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="Enter your email to join early access" required>
+        <button class="btn-primary" type="submit">Request beta access</button>
+      </form>
+      <p class="form-msg" role="status" aria-live="polite" hidden></p>
+      <p class="form-note reveal" style="--d:4">Available on chrome for Mac and Windows</p>
+    </div>
+
+    <!-- ---------- Dashboard mockup ---------- -->
+    <div class="device-wrap reveal" style="--d:5">
+      <div class="device-glow" aria-hidden="true"></div>
+
+      <div class="macbook" role="img" aria-label="Protoza analytics dashboard interface showing revenue reports, analytics donut chart, recent orders and top selling products">
+        <!-- macOS menu bar -->
+        <div class="menubar" aria-hidden="true">
+          <span class="mb-left">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="11" height="11"><path d="M16.4 12.6c0-2 1.6-3 1.7-3.1-1-1.4-2.4-1.6-2.9-1.6-1.2-.1-2.3.7-2.9.7-.6 0-1.5-.7-2.5-.7-1.3 0-2.5.8-3.2 2-1.4 2.4-.4 5.9 1 7.8.7.9 1.5 2 2.5 1.9 1 0 1.4-.6 2.6-.6 1.2 0 1.5.6 2.6.6s1.7-1 2.4-1.9c.8-1.1 1.1-2.1 1.1-2.2-.1 0-2.4-.9-2.4-3zM14.6 6.4c.5-.7.9-1.6.8-2.6-.8 0-1.8.6-2.4 1.3-.5.6-1 1.6-.8 2.5.9.1 1.8-.5 2.4-1.2z"/></svg>
+            <span>Finder</span><span>File</span><span>Edit</span><span>View</span><span>Go</span><span>Window</span><span>Help</span>
+          </span>
+          <span class="mb-right">
+            <span class="mb-icon">&#9679;&#9679;&#9679;</span>
+            <span class="mb-time">Mon 22 &nbsp; 9:41 AM</span>
+          </span>
+        </div>
+
+        <!-- Dashboard body -->
+        <div class="dash" aria-hidden="true">
+          <aside class="dash-side">
+            <div class="side-brand">
+              <span class="side-logo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="12" cy="12" r="8"/><path d="M12 4v16"/></svg>
+              </span>
+              <div><strong>Base</strong><em>Workspace</em></div>
+            </div>
+            <ul class="side-nav">
+              <li class="on"><span class="ni"></span></li>
+              <li><span class="ni"></span></li>
+              <li><span class="ni"></span></li>
+              <li><span class="ni"></span></li>
+              <li><span class="ni"></span></li>
+              <li><span class="ni"></span></li>
+              <li><span class="ni"></span></li>
+            </ul>
+          </aside>
+
+          <div class="dash-main">
+            <div class="dash-head">
+              <h3>Dashboard</h3>
+              <div class="dash-filters"><span>10-06-2022 &rsaquo;</span><span>10-10-2022 &rsaquo;</span></div>
+            </div>
+
+            <div class="kpis">
+              <div class="kpi"><span class="kpi-ic kpi-ic--a"></span><div><strong>178+</strong><em>Sale Products</em></div></div>
+              <div class="kpi"><span class="kpi-ic kpi-ic--b"></span><div><strong>20+</strong><em>Sale Products</em></div></div>
+              <div class="kpi"><span class="kpi-ic kpi-ic--c"></span><div><strong>100+</strong><em>Sale Products</em></div></div>
+              <div class="kpi"><span class="kpi-ic kpi-ic--d"></span><div><strong>12+</strong><em>Top Application</em></div></div>
+            </div>
+
+            <div class="charts">
+              <div class="panel panel--chart">
+                <div class="panel-head"><h4>Reports</h4><span>&#8230;</span></div>
+                <svg class="line-chart" viewBox="0 0 340 120" preserveAspectRatio="none">
+                  <defs>
+                    <linearGradient id="lg" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#a78bfa" stop-opacity=".45"/>
+                      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+                    </linearGradient>
+                  </defs>
+                  <g class="grid-lines">
+                    <line x1="0" y1="20" x2="340" y2="20"/><line x1="0" y1="45" x2="340" y2="45"/>
+                    <line x1="0" y1="70" x2="340" y2="70"/><line x1="0" y1="95" x2="340" y2="95"/>
+                  </g>
+                  <path class="area" d="M0,86 L28,60 L56,72 L84,40 L112,58 L140,34 L168,66 L196,48 L224,74 L252,42 L280,58 L308,30 L340,52 L340,120 L0,120 Z" fill="url(#lg)"/>
+                  <path class="stroke" d="M0,86 L28,60 L56,72 L84,40 L112,58 L140,34 L168,66 L196,48 L224,74 L252,42 L280,58 L308,30 L340,52" fill="none"/>
+                  <g class="dots">
+                    <circle cx="28" cy="60" r="3"/><circle cx="84" cy="40" r="3"/><circle cx="140" cy="34" r="3"/>
+                    <circle cx="196" cy="48" r="3"/><circle cx="252" cy="42" r="3"/><circle cx="308" cy="30" r="3"/>
+                  </g>
+                  <g class="tooltip"><rect x="118" y="4" rx="4" width="46" height="18"/><text x="141" y="17">2,478</text></g>
+                </svg>
+                <div class="axis"><span>11am</span><span>12pm</span><span>1pm</span><span>2pm</span><span>3pm</span><span>4pm</span><span>5pm</span><span>6pm</span></div>
+              </div>
+
+              <div class="panel panel--donut">
+                <div class="panel-head"><h4>Analytics</h4><span>&#8230;</span></div>
+                <div class="donut">
+                  <span class="donut-ring"></span>
+                  <div class="donut-center"><strong>80%</strong><em>Transactions</em></div>
+                </div>
+                <ul class="legend">
+                  <li><span class="lg lg--a"></span> Sale</li>
+                  <li><span class="lg lg--b"></span> Distribute</li>
+                  <li><span class="lg lg--c"></span> Return</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="tables">
+              <div class="panel panel--table">
+                <div class="panel-head"><h4>Recent Orders</h4><span>&#8230;</span></div>
+                <div class="trow thead"><span>Tracking no.</span><span>Product Name</span><span>Price</span><span>Total Order</span></div>
+                <div class="trow"><span><i class="chip"></i>#4862</span><span><i class="thumb"></i>Home Decore Range</span><span>$145.20</span><span>126</span></div>
+                <div class="trow"><span><i class="chip"></i>#4863</span><span><i class="thumb"></i>Disney Princess Bag</span><span>$96.00</span><span>98</span></div>
+                <div class="trow"><span><i class="chip"></i>#4864</span><span><i class="thumb"></i>Bathroom Essentials</span><span>$212.40</span><span>74</span></div>
+              </div>
+              <div class="panel panel--table">
+                <div class="panel-head"><h4>Top Selling Products</h4><span>&#8230;</span></div>
+                <div class="product-row"><i class="thumb thumb--lg"></i><div><strong>Home Decore Range</strong><em>$145.20 &middot; 126 sold</em><div class="bar"><span style="width:82%"></span></div></div></div>
+                <div class="product-row"><i class="thumb thumb--lg thumb--b"></i><div><strong>Disney Princess Bag</strong><em>$96.00 &middot; 98 sold</em><div class="bar"><span style="width:64%"></span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="macbook-lip" aria-hidden="true"></div>
+    </div>
+    <div class="hero-fade" aria-hidden="true"></div>
+  </section>
+
+  <!-- ============================================================
+       FEATURES — two column with interactive list
+  ============================================================ -->
+  <section class="features">
+    <div class="container features-grid">
+      <div class="features-copy">
+        <h2 class="h2 reveal">Build powerful interfaces for any product.</h2>
+        <p class="lead reveal" style="--d:1">When your team designs and develops in the same workspace, great ideas move from concept to reality fast.</p>
+
+        <div class="feature-list reveal" style="--d:2" role="group" aria-label="Feature highlights — activate a row to read more">
+          <button class="feature-item is-active" type="button" aria-expanded="true" data-feature>
+            <span class="feature-title">Interactive states</span>
+            <span class="feature-body">Bring your UI to life with smooth hover, tap, and transition effects that feel natural and responsive.</span>
+          </button>
+          <button class="feature-item" type="button" aria-expanded="false" data-feature>
+            <span class="feature-title">Media blocks</span>
+            <span class="feature-body">Drop in images, video, and rich embeds that adapt to any layout without breaking your grid.</span>
+          </button>
+          <button class="feature-item" type="button" aria-expanded="false" data-feature>
+            <span class="feature-title">Form controls</span>
+            <span class="feature-body">Accessible inputs, selects, and toggles styled end to end and wired to real validation.</span>
+          </button>
+          <button class="feature-item" type="button" aria-expanded="false" data-feature>
+            <span class="feature-title">Live data previews</span>
+            <span class="feature-body">Bind real data to your components and watch every state update instantly as you design.</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Editorial product visual -->
+      <div class="features-visual reveal" style="--d:2">
+        <div class="editorial">
+          <div class="editorial-screen">
+            <figure class="media-card">
+              <img src="https://images.pexels.com/photos/15644048/pexels-photo-15644048.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Snow-capped mountain peak rising above a sea of clouds at sunset" loading="lazy">
+            </figure>
+            <span class="glass-disc" aria-hidden="true"></span>
+            <div class="dots-nav" aria-hidden="true"><span class="on"></span><span></span><span></span></div>
+          </div>
+          <div class="editorial-rail" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       BENEFITS
+  ============================================================ -->
+  <section class="benefits">
+    <div class="container">
+      <h2 class="h2 h2--left reveal">Unlock smarter workforce<br>to across your team</h2>
+
+      <div class="benefit-grid">
+        <article class="benefit reveal" style="--d:1">
+          <span class="b-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M8 4H5a1 1 0 0 0-1 1v3M16 4h3a1 1 0 0 1 1 1v3M8 20H5a1 1 0 0 1-1-1v-3M16 20h3a1 1 0 0 0 1-1v-3"/><rect x="9" y="9" width="6" height="6" rx="1"/></svg>
+          </span>
+          <h3>Designed for real workflows</h3>
+          <p>Every feature is shaped around how teams actually operate, making daily tasks simpler, smoother, and more intuitive.</p>
+        </article>
+
+        <article class="benefit reveal" style="--d:2">
+          <span class="b-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/><path d="M9 12h.01M12.5 12h.01M16 12h.01"/></svg>
+          </span>
+          <h3>Effortless connectivity</h3>
+          <p>Sync your existing tools in seconds. No complex setup, no interruptions, just a seamless fit into your current workflow.</p>
+        </article>
+
+        <article class="benefit reveal" style="--d:3">
+          <span class="b-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M13 2 4.5 13.5H11l-1 8.5L19 10.5h-6.5z"/></svg>
+          </span>
+          <h3>Work that moves faster</h3>
+          <p>Automate repetitive actions and reduce manual effort. Your team gains time, clarity, and the freedom to focus on high-impact work.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SHOWCASE ROW A — Collaborate
+  ============================================================ -->
+  <section class="showcase">
+    <div class="container split split--text-left">
+      <div class="split-copy">
+        <h2 class="h2 reveal"><span class="c-cyan">Collaborate</span> with your team in real time</h2>
+        <p class="h3m reveal" style="--d:1">Let everyone jump in, review, and make updates without slowing <span class="dim">the project down.</span></p>
+      </div>
+
+      <div class="split-visual reveal" style="--d:2">
+        <div class="art art--rose">
+          <div class="window">
+            <div class="window-bar"><span></span><span></span><span></span></div>
+            <div class="player">
+              <!-- <img src="https://images.pexels.com/photos/18532137/pexels-photo-18532137.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800" alt="Album artwork of a portrait lit with dramatic pink neon light" loading="lazy"> -->
+              <div class="player-meta">
+                <strong>Tere Ishk Mein</strong>
+                <em>A.R. Rahman &middot; Tushar Kumar</em>
+              </div>
+              <div class="player-ctrl" aria-hidden="true"><span>&#9198;</span><span class="pl">&#9654;</span><span>&#9197;</span></div>
+            </div>
+            <div class="window-list">
+              <div class="wrow"><span></span><strong>Liked</strong></div>
+              <div class="wrow"><span></span></div>
+            </div>
+          </div>
+          <span class="cursor-tag tag--purple tag--top">Brundage</span>
+          <span class="cursor-tag tag--blue tag--left">Schmidt</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         SHOWCASE ROW B — Share / QR
+    ============================================================ -->
+    <div class="container split split--text-right">
+      <div class="split-visual reveal">
+        <div class="art art--gold">
+          <div class="window window--qr">
+            <div class="window-bar"><span></span><span></span><span></span></div>
+            <div class="qr-frame"><canvas class="qr" width="25" height="25" aria-label="QR code linking to a shared Protoza project" role="img"></canvas></div>
+          </div>
+          <span class="cursor-tag tag--orange tag--top">Schmidt</span>
+          <span class="cursor-tag tag--indigo tag--bottom">Brundage</span>
+        </div>
+      </div>
+
+      <div class="split-copy">
+        <h2 class="h2 reveal">Share your work instantly just <span class="c-yellow">send a link.</span></h2>
+        <p class="h3m reveal" style="--d:1"><span class="dim">Anyone on your team can open, view, and interact with your project without</span> installing anything.</p>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         SHOWCASE ROW C — Localize
+    ============================================================ -->
+    <div class="container split split--text-left">
+      <div class="split-copy">
+        <h2 class="h2 reveal"><span class="c-purple">Localize</span> your prototype for real users</h2>
+        <p class="h3m reveal" style="--d:1">Test flows in multiple <span class="dim">languages before launch.</span></p>
+      </div>
+
+      <div class="split-visual reveal" style="--d:2">
+        <div class="art art--blue">
+          <div class="phone">
+            <div class="phone-notch" aria-hidden="true"></div>
+            <div class="phone-card">
+              <!-- <img src="https://images.pexels.com/photos/19830268/pexels-photo-19830268.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800" alt="Music storefront artwork with a person browsing vinyl records in neon light" loading="lazy"> -->
+              <div class="phone-card-text"><strong>Liked<br>Songs</strong><em>103 Songs</em></div>
+            </div>
+            <div class="phone-strip" aria-hidden="true"><i></i><i></i><i></i></div>
+          </div>
+          <span class="cursor-tag tag--green tag--top">Ciao</span>
+          <span class="cursor-tag tag--cyan tag--left">Hello</span>
+          <span class="cursor-tag tag--pink tag--right">&#1605;&#1585;&#1581;&#1576;&#1575;</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FINAL WAITLIST + LAPTOP MOCKUP
+  ============================================================ -->
+  <section class="waitlist" id="waitlist">
+    <div class="container waitlist-inner">
+      <span class="tag tag--blue reveal" style="--d:5">Marriott</span>
+      <span class="tag tag--lime reveal" style="--d:6">Chris</span>
+
+      <h2 class="h2 h2--center reveal">We&rsquo;re getting everything ready for launch. <span class="dim">Join the waitlist for the beta.</span></h2>
+      <p class="waitlist-sub reveal" style="--d:1">Until then, join the early-access list and be first in line when we open the doors.</p>
+
+      <form class="waitlist-form reveal" style="--d:2" data-waitlist novalidate>
+        <label class="sr-only" for="waitlist-email">Email address</label>
+        <input class="waitlist-input" id="waitlist-email" name="email" type="email" inputmode="email" autocomplete="email" placeholder="Enter your email to join early access" required>
+        <button class="btn-primary" type="submit">Request beta access</button>
+      </form>
+      <p class="form-msg" role="status" aria-live="polite" hidden></p>
+      <p class="form-note reveal" style="--d:3">Available on chrome for Mac and Windows</p>
+    </div>
+
+    <!-- Laptop mockup -->
+    <div class="container laptop-wrap reveal" style="--d:4">
+      <div class="laptop-stage">
+        <div class="laptop">
+          <div class="laptop-screen"><span class="laptop-cam" aria-hidden="true"></span></div>
+        </div>
+      </div>
+      <div class="laptop-base" aria-hidden="true"></div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+============================================================ -->
+<footer class="site-footer">
+  <div class="container footer-top">
+    <a class="brand" href="#top" aria-label="Protoza home">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 8v8l8 5 8-5V8z"/><path d="M12 3v18"/></svg>
+      </span>
+      <span class="brand-name">Abdoxel</span>
+    </a>
+
+    <nav class="footer-nav" aria-label="Footer">
+      <a href="#top">404 Page</a>
+      <a href="#top">Style Guide</a>
+      <a href="#top">Changelog</a>
+      <a href="#top">Licenses</a>
+    </nav>
+
+    <a class="btn-ghost js-buy" href="#waitlist">
+      <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 5h16v14H4z"/><path d="M8 9h8M8 13h5"/></svg>
+      Join Us
+      <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>
+    </a>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>&copy; 2026 <span class="dim">Abdoxel</span></p>
+    <p class="credit"><span class="dim">Powered by Webflow.</span> &nbsp; <span class="dim">Design &amp; Developed by</span> <strong>Unity&#8209;Inventory</strong></p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
